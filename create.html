@@ -7,64 +7,65 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="/public/images/CodeSquad-Comics-logo.png" alt="codesquad logo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">LOGIN</a></li>
-        </ul>
-    </nav>
+    <div class="header-design">
+        <header>
+            <img src="/images/CodeSquad-Comics-logo.png" alt="codesquad logo" style="width: 200px";>
+        </header>
+        <nav class="navbar-move">
+            <a href="#">Home</a>
+            <br>
+            <a href="#">About</a>
+            <br>
+            <a href="#">Login</a>
+        </nav>
+        </header>
+    </div>
+    <h1>CREATE NEW COMIC</h1>
    
     <main>
+        <div class="inheritance">
+         <element class="form-container">
+            <p></p>
+                
+            
+      <form>
+            <label for="Title">Title:</label>
+            <input type="text" value="title value stored in database" id="Title" name="Title"><br><br>
+            <label for="Author">Author:</label>
+            <input type="text" value="author value stored in database" id="Author" name="Author"><br><br>
+            <label for="Publisher">Publisher:</label>
+            <select name="Publisher" id="Publisher">
+              <option value="Select">publisher value stored in data base</option><br><br>
+              <option value="Mariner Books">Mariner Books</option>
+              <option value="VIZ Media LLC">VIZ Media LLC</option>
+              <option value="DC Comics">DC Comics</option>
+              <option value="BOOM! Box">BOOM! Box</option>
+              <option value="Simon Schuster">Simon Schuster</option>
+              <option value="Marvel">Marvel</option>
+              <option value="Image Comics ">Image Comics</option>
+              <option value="Top Shelf Productions">Top Shelf Productions</option>
+              <option value="DC Comics">DC Comics</option>
+              <option value="Icon Books">Icon Books</option>
+              <option value="Harry N. Abrams">Harry N. Abrams</option>
+            </select><br><br>
+            <label for="Genre">Genre:</label>
+            <input type="text" value="genre data stored in data base" id="Genre" name="Genre"><br><br>
+            <label for="Number of Pages">Number of Pages:</label>
+            <input type="text" value="255" id="255" name="255"><br><br>
+            <label for="Rating">Rating:</label>
+            <input type="text" value="5" id="5" name="5"><br><br>
+            <label for="Synopsis">Synopsis:</label>
+            <input type="text" value="synapsis value stored in data base" id="5" name="5"><br><br>
+            <input type="submit" value="Submit" id="submit">
         
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email"><br>
+        </form> 
 
-        </form>
-        <!--  <form action="/action_page.php">
-        <label for="publishers">Select one:</label>
-        <select name="publishers" id="publishers">
-          <option value="BOOM!Box">BOOM!Box</option>
-          <option value="DC Comics">DC Comics</option>
-          <option value="Harry N.Abrams">Harry N. Abrams</option>
-          <option value="Icon Books">Icon Books</option>
-          <option value="Image Comics">Im age Comics</option>
-          <option value="Marvel">Marvel</option>
-          <option value="Simon&Schuster">Simon&Schuster</option>
-          <option value="TopShelfProductions">TopShelfProductions</option>
-          <option value="VizMediaLLC">VizMediaLLC</option>
-        </select>
+  
         <br><br>
-        <input type="submit" value="Submit">
-      </form>
--->
-    <!--<form> use this with^
-        <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-        </select>
-        <br><br>
-    </form>  -->   
+       
         
-   <!-- <form action="/action_page.php" id="form1">
-        <input type="title" value= "title"> /input>
-        <input type="author" id="author" name="author"><br><br>
-        <input type="publisher" value="publisher">
-        <input type="genre" value="genre">
-        <input type="255" value="255">
-        <input type="5" value="5">
-        <input type="synopsis" value="synopsis">
-      </form>
--->     
+    
+    
         
         
         
@@ -73,31 +74,26 @@
 
     </main>
     <footer>
-        <h3>VISIT US</h3>
-        <P> 
-            CodeSquad Comics <br>
-            123 Dorchester Avenue <Br>
-            Boston, MA 02124
-              
-        </P>
-        <h3>
-            LINKS
-        </h3>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">LOGIN</a></li>
-        </ul>
-        <h3>FOLLOW US</h3>
-        <ul>
-            <li><a href="#">FaceBook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-        </ul>
-        <h3>PRODUCT OF</h3>
-        <img src="/public/images/CodeSquad-logo-a.png" alt="CodeSquad Logo">    
-   
-    </footer>
+        <div class="footer-design">
+            <p><b>Visit Us</b></p>
+                CodeSquad Comics<br>
+                123 Dorchester Avenue<br>
+                Boston, MA 02124
+            <p><b>Links</b></p>
+            <a href=""> Home</a>
+            <br><a href="about.html">About</a></br>
+            <a href="login.html"> Login</a>
+            <p><b>Follow Us</b></p>
+            <a href="">Facebook</a>
+            <br><a href="">Instagram</a></br>
+            <a href="">Twitter</a>
+            <h1>Vist Us</h1>
+            <p><b>A Product of</b></p>
+            <a href="http://codesquad.org" target="_blank">
+            <img src="/images/CodeSquad-logo-b.png" alt="CodeSquad-logo-b" style="width: 200px;">
+            </a>
+        </div>
+        </footer>
     
 </body>
 </html>
