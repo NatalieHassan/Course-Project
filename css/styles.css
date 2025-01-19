@@ -2,14 +2,30 @@
 .header-design {
 	color: #FFFFFF;
 	background-color: #063C5E;
-	margin-top: 0%;
-	margin-bottom:0px;
+	margin-top:100%;
+	margin: bottom 100px;%;
+}
+
+.container-div-blue {
+    background-color: #063C5E;
+    color: white;
+}
+
+.container-width-fit-content{
+	width: fit-content;
+	background-color: #063C5E
+
 }
 .border-radius {
 	border-radius: 50px;
 }
+.navbar {
+	background-color: #063C5E;
+}
 
 
+
+    
 
 
 
@@ -24,9 +40,9 @@ body {
 
 .card {
 	background-color: #FFFFFF;
+	margin-top: 20px;
 	padding: 20px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	margin-right: 20px;
 	margin-left: 20px;
 	border-radius: 10px;
