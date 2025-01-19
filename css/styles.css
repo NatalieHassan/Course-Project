@@ -2,71 +2,32 @@
 .header-design {
 	color: #FFFFFF;
 	background-color: #063C5E;
-	margin-top:100%;
-	margin: bottom 100px;%;
-}
-
-.container-div-blue {
-    background-color: #063C5E;
-    color: white;
-}
-
-.container-width-fit-content{
-	width: fit-content;
-	background-color: #063C5E
-
-}
-.border-radius {
-	border-radius: 50px;
-}
-.navbar {
-	background-color: #063C5E;
+	width: auto;
+	height: 400px;
 }
 
 
 
-    
 
 
 
-body {
-	background-color: #000000;
-	background-position: left right;
-	margin-left: 500px;
-	margin-right: 500px;
+
+
+.main-content {
+    background-image: linear-gradient(#fff 0.1%, #671f61,#480c42, #31022a 0.1%);
+    border-bottom: 4px solid #fccf14;
+    width: 200%;
 	height: auto;
+
+}
+
+
+
+
 	
-}
 
-.card {
-	background-color: #FFFFFF;
-	margin-top: 20px;
-	padding: 20px;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-h1{
-	color: #000000;
-	background-color: #FFFFFF;
-	font-size: 24px;
-	font-family: Arial, ;
-}
 
-.form-container {
-    background-color: #FFFFFF;
-	padding: 20px 0;
-    
-}
 
-	 
-
-.inheritance {
-	background-color:#FFFFFF ;
-
-}
 
 
 body {
