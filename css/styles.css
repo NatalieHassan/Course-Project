@@ -5,8 +5,9 @@
 	margin-top: 0%;
 	margin-bottom:0px;
 }
-
-	
+.border-radius {
+	border-radius: 50px;
+}
 
 
 
@@ -19,6 +20,17 @@ body {
 	margin-right: 500px;
 	height: auto;
 	
+}
+
+.card {
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 h1{
 	color: #000000;
