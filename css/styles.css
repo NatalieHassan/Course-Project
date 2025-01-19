@@ -1,25 +1,60 @@
-#body {
-    background-color:#063C5E;
-    width: 100%;
-    max-width: 100vw;
-    margin: 0;
-    overflow-x: hidden; 
+/* CSS Document */
+.header-design {
+	color: #FFFFFF;
+	background-color: #063C5E;
+	margin-bottom: 5015
+	 px;
 }
+
+	
+
+
+
+
+
+body {
+	background-color: #000000;
+	background-position: left right;
+	margin-left: 500px;
+	margin-right: 500px;
+	height: auto;
+	
+}
+
+	 
 
 .inheritance {
 	background-color:#FFFFFF ;
 
 }
 
-* {
-	box-sizing:border-box
 
+body {
+    background-color: #000000;
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    overflow-x: hidden; 
 }
 
-.box {
-	border:2px solid #FCCF14;
+
+
+ 
+
+
+
+	
+
+
+/*ONLY THE BOTTOM HAS A YELLOW BORDER*/
 
 
 
 
+
+.footer-design {
+    color: white;
+    background-color: #063C5E;
+    border-top: #FCCF14;
+    border-style: solid;
 }
