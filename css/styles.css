@@ -21,15 +21,36 @@
 
   .button1 {background-color: #04AA6D;} /* Green */
   .button2 {background-color: #008CBA;} /* Blue */
+ 
   
-
-
-
+ .comic {
+    width: 100%;
+    height: auto;
+    border:  1px solid #000;
+    border-collapse: collapse;
+    
+ }
+.comic th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    background-color: #063C5E;
+    color: white;
+}
+.comic td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    background-color: #063C5E;
+    color: white;
+}
 .main-content {
     background-image: linear-gradient(#fff 0.1%, #671f61,#480c42, #31022a 0.1%);
     border-bottom: 4px solid #fccf14;
     width: 200%;
-	height: auto;
+	  height: auto;
 
 }
 
