@@ -1,25 +1,74 @@
 
 
-    
+  * {
+    box-sizing: border-box;
+  }  
 /* Header */
-.header-design a:link, a:visited, a:hover{
+
+.header-design{
     color: white;
-    text-decoration: none;
     background-color: #063c5e;
+    width: auto;
+}
+
+.card {
+    margin: 10px auto; /* Added */
+    width:400px;
+    height: 600px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #063c5e;
+}
+
+.card-label{
+    color: yellow;
+    background-color: #063c5e;
+    width: 330px;
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+
+,card-top{
+    width: 330px;
+    height: 300px;
+    background-image: url("../images/wake.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-bottom: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+
+
+/*.header-design a:link, a:visited, a:hover{
+    color: white;
+   /* text-decoration: none;
+    background-color: #063c5e;
+    width: 200px;
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 150;*/
+
+/*}*/
+.navbar-nav a:link, a:visited, a:hover{
+    color: white;
+    background-color: #063c5e;
+    width: 200px;
+    height: 400px;
     padding-right: 50px;
     padding-left: 150;
 
 }
-.body-image{
-    width: 200px;
-    
-}
+
+
+
 .footer-design{
-    background-color: #063c5e;
     color: white;
-    text-decoration: none;
-    padding-right: 50px;
-    padding-left: 150;
-    
+    background-color: #063c5e;
+    border-top: #fccf14;
+    border-style: solid;
 }
 
