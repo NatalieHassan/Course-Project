@@ -1,100 +1,88 @@
 /* CSS Document */
-.header-design {
-	color: #FFFFFF;
-	background-color: #063C5E;
-	margin-top:100%;
-	margin: bottom 100px;%;
+*{box-sizing: ;
 }
+/* Header */
 
-.container-div-blue {
-    background-color: #063C5E;
+.header-design{
     color: white;
+    background-color: #063c5e;
+    width: auto;
 }
-
-.container-width-fit-content{
-	width: fit-content;
-	background-color: #063C5E
-
+.main-content{
+    background-image: linear-gradient(#fff 0.1%, #009e9e, #006b6b);
+    border-bottom: 4px solid #fccf14;
+    width: 100%;
 }
-.border-radius {
-	border-radius: 50px;
-}
-.navbar {
-	background-color: #063C5E;
-}
-
-
-
-    
-
-
-
-body {
-	background-color: #000000;
-	background-position: left right;
-	margin-left: 500px;
-	margin-right: 500px;
-	height: auto;
-	
-}
-
 .card {
-	background-color: #FFFFFF;
-	margin-top: 20px;
-	padding: 20px;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-h1{
-	color: #000000;
-	background-color: #FFFFFF;
-	font-size: 24px;
-	font-family: Arial, ;
+    margin: 10px auto; /* Added */
+    width:400px;
+    height: 600px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #063c5e;
 }
 
-.form-container {
-    background-color: #FFFFFF;
-	padding: 20px 0;
-    
+.card-label{
+    color: yellow;
+    background-color: #063c5e;
+    width: 330px;
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 30px;
 }
 
-	 
 
-.inheritance {
-	background-color:#FFFFFF ;
-
+,card-top{
+    width: 330px;
+    height: 300px;
+    background-image: url("../images/wake.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-bottom: #ffffff;
+    border-radius: 15px 15px 15px 15px;
 }
 
+
+
+
+
+/*.header-design a:link, a:visited, a:hover{
+    color: white;
+   /* text-decoration: none;
+    background-color: #063c5e;
+    width: 200px;
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 150;*/
+
+/*}*/
+.navbar-nav a:link, a:visited, a:hover{
+    color: white;
+    background-color: #063c5e;
+    width: 200px;
+    height: 400px;
+    padding-right: 50px;
+    padding-left: 150;
+
+}
+.main{
+    background-image: linear-gradient(#fff 0.1%, #009e9e, #006b6b);
+    border-bottom: 4px solid #fccf14;
+    width: 100%;
+}
 
 body {
-    background-color: #FFFFFF
-    width: 100%;
-    max-width: 100vw;
-    margin: 0;
-    overflow-x: hidden; 
-}
+	   width: 100%;
+	   max-width: 100vw;
+	   margin: 0;
+	   overflow-x: hidden; 
+   }
+   
 
 
-
- 
-
-
-
-	
-
-
-/*ONLY THE BOTTOM HAS A YELLOW BORDER*/
-
-
-
-
-
-.footer-design {
+.footer-design{
     color: white;
-    background-color: #063C5E;
-    border-top: #FCCF14;
+    background-color: #063c5e;
+    border-top: #fccf14;
     border-style: solid;
 }
+
