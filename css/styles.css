@@ -1,1 +1,25 @@
-#
+
+
+    
+/* Header */
+.header-design a:link, a:visited, a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #063c5e;
+    padding-right: 50px;
+    padding-left: 150;
+
+}
+.body-image{
+    width: 200px;
+    
+}
+.footer-design{
+    background-color: #063c5e;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 150;
+    
+}
+
