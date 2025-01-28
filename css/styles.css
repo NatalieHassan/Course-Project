@@ -4,66 +4,8 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
-.header-design, {
-    background-color: #063C5E;
-    color: #FFFFFF;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.header nav-bar {
-    list-style: none;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;   
-}
-
-.admin-page {
-    margin: 10px auto;
-    padding: 20px;
-    background-color: #f3faff;
-  }
-.admin-page h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-   
-.table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-
-  
-.table tbody td {
-    padding: 10px;
-    text-align: center;
-  }
- 
-   
 
 
-   
-
-
-    
-    
-
-
-/* FOOTER */
-.footer-design {
-    background-color: #063C5E;
-    color: #FFFFFF;
-    border-top: yellow 2px solid;
-    border-style: solid;
-    border-color: yellow;
-   
-}
 
 
 
