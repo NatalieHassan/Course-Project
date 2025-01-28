@@ -3,14 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
-
-
-
-    
-
+.body {
+    font-family: Arial, sans-serif;
+    background-color: teal; 
+    line-height: 1.6;
+}
+.header-design {
+    background-image: linear-gradient(teal,green, white);
+    border-bottom: 4px solid #fccf14;
+    width: 200%;
+	height: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-design nav ul {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+.header-design nav ul li {
+    margin: 0 15px;
+}
+.header-design nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.admin-page h1 {
+    text-align: center;
+}
+.admin-page {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+}
+.add-new {
+    background-color: #fccf14;
+    padding: 10px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table .th, .table .td .tr:nth-child(even) {
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+}
+.edit-btn {
+    background-color: blue;
+    color: #FFFFFF;
+}
+.delete-btn {
+    background-color: #fccf14;
+    color: #000;
+}
+.footer-design {
+    background-color: teal;
+    color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.footer h3 {
+    flex: 1;
+    min-width: 200px;
+}
+.footer a {
+    color: #f2f2f2;
+    display: flex;
+    text-decoration: none;
+}
 
 
 
