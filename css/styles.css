@@ -1,98 +1,82 @@
-/* CSS Document */
-.header-design {
-	color: #FFFFFF;
-	background-color: #063C5E;
-	width: auto;
-	height: 400px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-
-.button-column {
-
+/* HEADER */
+.header-design, {
+    background-color: #063C5E;
+    color: #FFFFFF;
+    padding: 10px 10px;
     display: flex;
-  
-    flex-direction: column; /* Arrange items vertically */
-  
-    align-items:  center; /* Center items horizontally */
-  }
-   
-  
-   
-  .edit-button, .delete-button {
-  
-    margin-bottom: 5px; /* Add spacing between buttons */
-  
-  }
-  
- 
-  
- .comic {
-    width: 100%;
-    height: auto;
-    border:  1px solid #000;
-    border-collapse: collapse;
+    justify-content: space-between;
+    align-items: center;
     
- }
-.comic th {
-    border: 1px solid #000;
+}
+
+.header nav-bar {
+    list-style: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;   
+}
+
+.admin-page {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f3faff;
+  }
+.admin-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+   
+.table {
+    width: 100%;
     border-collapse: collapse;
-    padding: 15px;
+  }
+  
+
+  
+.table tbody td {
+    padding: 10px;
     text-align: center;
+  }
+ 
+   
+
+
+   
+
+
+    
+    
+
+
+/* FOOTER */
+.footer-design {
     background-color: #063C5E;
-    color: white;
-}
-.comic td {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    padding: 15px;
-    text-align: center;
-    background-color: #063C5E;
-    color: white;
-}
-.main-content {
-    background-image: linear-gradient(#fff 0.1%, #671f61,#480c42, #31022a 0.1%);
-    border-bottom: 4px solid #fccf14;
-    width: 200%;
-	  height: auto;
-
+    color: #FFFFFF;
+    border-top: yellow 2px solid;
+    border-style: solid;
+    border-color: yellow;
+   
 }
 
 
 
-
-	
-
+    
 
 
 
 
-body {
+
+.body {
     background-color: #FFFFFF
     width: 100%;
     max-width: 100vw;
     margin: 0;
     overflow-x: hidden; 
-}
-
-
-
- 
-
-
-
-	
-
-
-/*ONLY THE BOTTOM HAS A YELLOW BORDER*/
-
-
-
-
-
-.footer-design {
-    color: white;
-    background-color: #063C5E;
-    border-top: #FCCF14;
-    border-style: solid;
 }
