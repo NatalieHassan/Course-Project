@@ -20,15 +20,11 @@
         </nav>
         </header>
     </div>
-    <h1>CREATE NEW COMIC</h1>
-   
-    <main>
-        <div class="inheritance">
-         <element class="form-container">
-            <p></p>
-                
-            
-      <form>
+     <section class="create-comic">
+      <h1>CREATE NEW COMIC</h1>
+      <main>
+        <div class="form-container">      
+         <form>
             <label for="Title">Title:</label>
             <input type="text" value="title value stored in database" id="Title" name="Title"><br><br>
             <label for="Author">Author:</label>
@@ -43,7 +39,7 @@
               <option value="Simon Schuster">Simon Schuster</option>
               <option value="Marvel">Marvel</option>
               <option value="Image Comics ">Image Comics</option>
-              <option value="Top Shelf Productions">Top Shelf Productions</option>
+              <option value="Top Shelf Productions">Top Shelf Productions<option>
               <option value="DC Comics">DC Comics</option>
               <option value="Icon Books">Icon Books</option>
               <option value="Harry N. Abrams">Harry N. Abrams</option>
@@ -55,24 +51,13 @@
             <label for="Rating">Rating:</label>
             <input type="text" value="5" id="5" name="5"><br><br>
             <label for="Synopsis">Synopsis:</label>
-            <input type="text" value="synapsis value stored in data base" id="5" name="5"><br><br>
-            <input type="submit" value="Submit" id="submit">
-        
-        </form> 
-
-  
-        <br><br>
-       
-        
-    
-    
-        
-        
-        
-        
-       
-
-    </main>
+            <textarea id="synopsis" name="synopsis" placeholder="Synopsis">Synopsis data stored in database
+            </textarea>
+           <button type="submit" class="submit-btn">Submit</button>
+          </form> 
+        </div>
+       </section> 
+      </main>
     <footer>
         <div class="footer-design">
             <p><b>Visit Us</b></p>

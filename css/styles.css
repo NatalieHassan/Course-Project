@@ -1,5 +1,8 @@
 /* CSS Document */
-*{box-sizing: ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Header */
 
@@ -8,11 +11,45 @@
     background-color: #063c5e;
     width: auto;
 }
-.main-content{
+.create-comic{
     background-image: linear-gradient(#fff 0.1%, #009e9e, #006b6b);
     border-bottom: 4px solid #fccf14;
     width: 100%;
 }
+.create-comic h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50%;
+  margin: 0 auto;
+}
+.input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: yellow;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 .card {
     margin: 10px auto; /* Added */
     width:400px;
@@ -64,11 +101,7 @@
     padding-left: 150;
 
 }
-.main{
-    background-image: linear-gradient(#fff 0.1%, #009e9e, #006b6b);
-    border-bottom: 4px solid #fccf14;
-    width: 100%;
-}
+
 
 body {
 	   width: 100%;
