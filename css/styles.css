@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body {
-    font-family: Arial, sans-serif;
-    background-color: teal; 
-    line-height: 1.6;
+.header {
+    background-color: #063C5E ;
 }
+body {
+    
+}
+
 .header-design {
-    background-image: linear-gradient(teal,green, white);
-    border-bottom: 4px solid #fccf14;
-    width: 200%;
+    background-color: #063C5E;
+    border-bottom: 4px solid blue;
+    width: 100%;
 	height: auto;
     padding: 10px 20px;
     display: flex;
@@ -30,6 +32,9 @@
     color: white;
     text-decoration: none;
 }
+.main-content  {
+    background: linear-gradient(75deg, rgba(2,0,36,1) 0%, rgba(12,129,110,1) 35%, rgba(0,212,255,1) 100%)
+}
 .admin-page h1 {
     text-align: center;
 }
@@ -45,17 +50,17 @@
     cursor: pointer;
     margin-bottom: 20px;
 }
-.table {
-    width: 100%;
+.table, tbody {
+    width: 250%;
     border-collapse: collapse;
     margin-top: 20px;
 }
-.table .th, .table .td .tr:nth-child(even) {
-    border: 1px solid gray;
+.table th, table, td, tr:nth-child(even) {
+    border: 1px solid #4f4848;
     background-color: #f2f2f2;
 }
 .edit-btn {
-    background-color: blue;
+    background-color: #063C5E;
     color: #FFFFFF;
 }
 .delete-btn {
@@ -63,29 +68,37 @@
     color: #000;
 }
 .footer-design {
-    background-color: teal;
-    color: #f2f2f2;
+    border-top: 4px solid #fccf14;
+    background-color: #063C5E ;
+    color: #ffffff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     text-align: left;
     flex-wrap: wrap;
 }
-.footer h3 {
+.footer, h3 {
+    color: #fccf14;
     flex: 1;
     min-width: 200px;
 }
-.footer a {
+.footer, a {
     color: #f2f2f2;
     display: flex;
     text-decoration: none;
 }
-
-
-
+.footer-image {
+    background-color: #063C5E;
+    color:#fccf14 ;  
+}
+.image {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    object-position: right, bottom;
+}
 
 .body {
-    background-color: #FFFFFF
     width: 100%;
     max-width: 100vw;
     margin: 0;
