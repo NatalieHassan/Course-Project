@@ -79,7 +79,7 @@ body {
     text-align: left;
     flex-wrap: wrap;
 }
-.footer, .footer-icons{
+.footer, h3 {
     color: #fccf14;
     flex: 1;
     min-width: 200px;
@@ -90,7 +90,6 @@ body {
     text-decoration: none;
     list-style: none;
 }
-
 .footer-image {
     background-color: #063C5E;
     color:#fccf14 ;  
