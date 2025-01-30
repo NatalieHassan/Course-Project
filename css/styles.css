@@ -1,94 +1,113 @@
 /* CSS Document */
-.header-design {
-	color: #FFFFFF;
-	background-color: #063C5E;
-	width: auto;
-	height: 400px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
-  .button1 {background-color: #04AA6D;} /* Green */
-  .button2 {background-color: #008CBA;} /* Blue */
- 
-  
- .comic {
-    width: 100%;
-    height: auto;
-    border:  1px solid #000;
-    border-collapse: collapse;
+.header {
+    background-color: #063C5E ;
     
- }
-.comic th {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    padding: 15px;
-    text-align: center;
+}
+
+
+.header-design {
     background-color: #063C5E;
-    color: white;
+    border-bottom: 4px solid blue;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.comic td {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    padding: 15px;
+.header-design nav {
+    list-style: none;
+    color: #FFFFFF;
+    display: flex;
+    margin: 20px;
+}
+.header-design nav {
+    margin: 0 15px;
+}
+.header-design nav  {
+    color: white;
+    text-decoration: none;
+}
+.main-content  {
+    background: linear-gradient(75deg, rgba(2,0,36,1) 0%, rgba(12,129,110,1) 35%, rgba(0,212,255,1) 150%)
+}
+.admin-page h1 {
     text-align: center;
+}
+.admin-page {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+}
+.add-new {
+    background-color: #fccf14;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 475px;
+
+}
+.table, tbody {
+    width: 250%;
+    border-collapse: collapse;
+}
+.table th, table, td, tr:nth-child(even) {
+    border: 1px solid #4f4848;
+    background-color: #f2f2f2;
+    margin-left: 300px;
+    margin-top: 6px;
+}
+.edit-btn {
     background-color: #063C5E;
-    color: white;
+    color: #FFFFFF;
 }
-.main-content {
-    background-image: linear-gradient(#fff 0.1%, #671f61,#480c42, #31022a 0.1%);
-    border-bottom: 4px solid #fccf14;
-    width: 200%;
-	  height: auto;
-
+.delete-btn {
+    background-color: #fccf14;
+    color: #000;
+}
+.footer-design {
+    border-top: 4px solid #fccf14;
+    background-color: #063C5E ;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;  
+}
+.footer, {
+    color: #fccf14;
+    flex: 1;
+    min-width: 200px;
+    justify-content: space-between;
+}
+.footer-list a {
+    color: #f2f2f2;
+    display: block;
+    flex-wrap: wrap;
+    
+    text-decoration: none;
+    list-style: none;
 }
 
+.footer-image {
+    background-color: #063C5E;
+    color:#fccf14 ;  
+}
+.image {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    object-position: right, bottom;
+}
 
-
-
-	
-
-
-
-
-
-body {
-    background-color: #FFFFFF
+.body {
     width: 100%;
     max-width: 100vw;
     margin: 0;
     overflow-x: hidden; 
 }
 
-
-
- 
-
-
-
-	
-
-
-/*ONLY THE BOTTOM HAS A YELLOW BORDER*/
-
-
-
-
-
-.footer-design {
-    color: white;
-    background-color: #063C5E;
-    border-top: #FCCF14;
-    border-style: solid;
-}
